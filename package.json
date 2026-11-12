@@ -1,0 +1,28 @@
+{
+  "name": "loanlens",
+  "version": "0.1.0",
+  "private": true,
+  "description": "PM workbench for a digital lending funnel: detect, diagnose, decide, check compliance, experiment. Synthetic data only.",
+  "type": "module",
+  "workspaces": [
+    "server",
+    "web"
+  ],
+  "scripts": {
+    "dev": "concurrently -n api,web -c blue,green \"npm run dev -w server\" \"npm run dev -w web\"",
+    "dev:api": "npm run dev -w server",
+    "dev:web": "npm run dev -w web",
+    "seed": "npm run seed -w server",
+    "ingest": "npm run ingest -w server",
+    "test": "npm test -w server && npm test -w web",
+    "build": "npm run build -w web",
+    "live-load": "node scripts/live-load.js",
+    "check": "npm test && npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

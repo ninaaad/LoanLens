@@ -1,0 +1,33 @@
+{
+  "_note": "Written from a read of the Directions BEFORE any retrieval was run. 'clause' is the expected clause; 'para' the expected sub-paragraph where one paragraph clearly holds the answer. Edits after seeing results are logged in docs/RAG_EVAL.md.",
+  "in_scope": [
+    { "q": "What must the Key Fact Statement (KFS) given to a borrower contain, and which circular governs it?", "clause": "Clause 8", "para": "(i)" },
+    { "q": "Can a borrower exit a digital loan during a cooling-off period without a penalty?", "clause": "Clause 10", "para": "(i)" },
+    { "q": "Can the lender keep a processing fee if the customer exits the loan in the cooling-off period?", "clause": "Clause 10", "para": "(ii)" },
+    { "q": "Which documents must automatically reach the borrower by email or SMS after the loan contract is executed?", "clause": "Clause 8", "para": "(iii)" },
+    { "q": "Can a lending app access my contact list, call logs and photos?", "clause": "Clause 12", "para": "(i)" },
+    { "q": "Does the borrower have the right to withdraw consent and ask for their data to be deleted?", "clause": "Clause 12", "para": "(ii)" },
+    { "q": "Where must the borrower's data be stored, and can it be processed outside India?", "clause": "Clause 13", "para": "(iv)" },
+    { "q": "Who must be appointed to handle digital lending complaints?", "clause": "Clause 11", "para": "(i)" },
+    { "q": "When can an unhappy borrower take a complaint to the RBI Complaint Management System?", "clause": "Clause 11", "para": "(iv)" },
+    { "q": "What do regulated entities have to report to RBI about their digital lending apps, and on which portal?", "clause": "Clause 17", "para": "(i)" },
+    { "q": "Into whose bank account must a loan be disbursed?", "clause": "Clause 9", "para": "(i)" },
+    { "q": "Can a lending service provider charge its fees to the borrower?", "clause": "Clause 9", "para": "(iv)" },
+    { "q": "What is the maximum cover allowed under a default loss guarantee arrangement?", "clause": "Clause 23", "para": "(i)" },
+    { "q": "In what forms can a default loss guarantee be accepted by the lender?", "clause": "Clause 22", "para": "(i)" },
+    { "q": "Within how many days of overdue must a default loss guarantee be invoked?", "clause": "Clause 26", "para": "(i)" },
+    { "q": "What information must a lender collect about the borrower before assessing creditworthiness?", "clause": "Clause 7", "para": "(i)" },
+    { "q": "Does lending done through digital lending apps have to be reported to credit information companies?", "clause": "Clause 16", "para": "(i)" },
+    { "q": "What must be shown to a borrower when a platform displays loan offers from several lenders?", "clause": "Clause 6", "para": "(iii)" },
+    { "q": "Must the borrower be told who the recovery agent is before they are contacted for recovery?", "clause": "Clause 8", "para": "(v)" },
+    { "q": "Is an automatic increase of the credit limit allowed?", "clause": "Clause 7", "para": "(ii)" }
+  ],
+  "out_of_scope": [
+    "What is the current repo rate set by the central bank?",
+    "How do I bake sourdough bread at home?",
+    "Who won the cricket world cup?",
+    "What is the penalty for a bounced cheque?",
+    "What documents are needed to open a demat account?",
+    "What will the weather be in Mumbai tomorrow?"
+  ]
+}

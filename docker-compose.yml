@@ -1,0 +1,14 @@
+# Optional. The app runs without Docker (embedded PostgreSQL). Use this if you prefer a normal PostgreSQL:
+#   docker compose up -d
+#   DATABASE_URL=postgres://postgres:loanlens@localhost:5432/loanlens npm run dev
+# Nothing in the app or the tests requires Docker, and this file has not been run as part of the project's checks.
+services:
+  postgres:
+    image: pgvector/pgvector:pg16
+    environment:
+      POSTGRES_PASSWORD: loanlens
+      POSTGRES_DB: loanlens
+    ports: ["5432:5432"]
+    volumes: ["pgdata:/var/lib/postgresql/data"]
+volumes:
+  pgdata:

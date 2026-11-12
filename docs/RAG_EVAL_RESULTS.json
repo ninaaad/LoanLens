@@ -1,0 +1,1200 @@
+{
+  "generated_by": "server/test/rag.test.js",
+  "note": "bm25 and ts_rank_cd_baseline: the 20 tuning questions in server/test/rag_eval.json. held_out_*: a second set of 20 in rag_heldout.json, written after the design was fixed and never used for tuning. Regenerated on every test run.",
+  "bm25": {
+    "mode": "bm25",
+    "questions": 20,
+    "clause_hit_at_1": 0.85,
+    "clause_hit_at_3": 0.9,
+    "para_hit_at_1": 0.8,
+    "para_hit_at_3": 0.9,
+    "in_scope_answered": 1,
+    "out_of_scope_refused": 1,
+    "out_of_scope_questions": 6,
+    "misses_at_3": [
+      {
+        "q": "What do regulated entities have to report to RBI about their digital lending apps, and on which portal?",
+        "expected": "Clause 17 (i)",
+        "clauseRank": 4,
+        "paraRank": 0,
+        "top": "Clause 3",
+        "topRank": 0.6785621146533095
+      },
+      {
+        "q": "What is the maximum cover allowed under a default loss guarantee arrangement?",
+        "expected": "Clause 23 (i)",
+        "clauseRank": 0,
+        "paraRank": 0,
+        "top": "Clause 4 (ii)",
+        "topRank": 0.7869384742182357
+      }
+    ],
+    "misses_at_1": [
+      {
+        "q": "What do regulated entities have to report to RBI about their digital lending apps, and on which portal?",
+        "expected": "Clause 17 (i)",
+        "clauseRank": 4,
+        "paraRank": 0,
+        "top": "Clause 3",
+        "topRank": 0.6785621146533095
+      },
+      {
+        "q": "What is the maximum cover allowed under a default loss guarantee arrangement?",
+        "expected": "Clause 23 (i)",
+        "clauseRank": 0,
+        "paraRank": 0,
+        "top": "Clause 4 (ii)",
+        "topRank": 0.7869384742182357
+      },
+      {
+        "q": "In what forms can a default loss guarantee be accepted by the lender?",
+        "expected": "Clause 22 (i)",
+        "clauseRank": 2,
+        "paraRank": 2,
+        "top": "Clause 4 (ii)",
+        "topRank": 0.6314549696419498
+      }
+    ],
+    "rows": [
+      {
+        "q": "What must the Key Fact Statement (KFS) given to a borrower contain, and which circular governs it?",
+        "expected": "Clause 8 (i)",
+        "clauseRank": 1,
+        "paraRank": 1,
+        "top": "Clause 8 (i)",
+        "topRank": 0.8469279983149844
+      },
+      {
+        "q": "Can a borrower exit a digital loan during a cooling-off period without a penalty?",
+        "expected": "Clause 10 (i)",
+        "clauseRank": 1,
+        "paraRank": 1,
+        "top": "Clause 10 (i)",
+        "topRank": 1.163616284027205
+      },
+      {
+        "q": "Can the lender keep a processing fee if the customer exits the loan in the cooling-off period?",
+        "expected": "Clause 10 (ii)",
+        "clauseRank": 1,
+        "paraRank": 1,
+        "top": "Clause 10 (ii)",
+        "topRank": 0.998253915663663
+      },
+      {
+        "q": "Which documents must automatically reach the borrower by email or SMS after the loan contract is executed?",
+        "expected": "Clause 8 (iii)",
+        "clauseRank": 1,
+        "paraRank": 1,
+        "top": "Clause 8 (iii)",
+        "topRank": 0.5478700505057307
+      },
+      {
+        "q": "Can a lending app access my contact list, call logs and photos?",
+        "expected": "Clause 12 (i)",
+        "clauseRank": 1,
+        "paraRank": 1,
+        "top": "Clause 12 (i)",
+        "topRank": 0.5192492704802534
+      },
+      {
+        "q": "Does the borrower have the right to withdraw consent and ask for their data to be deleted?",
+        "expected": "Clause 12 (ii)",
+        "clauseRank": 1,
+        "paraRank": 1,
+        "top": "Clause 12 (ii)",
+        "topRank": 0.502263604544407
+      },
+      {
+        "q": "Where must the borrower's data be stored, and can it be processed outside India?",
+        "expected": "Clause 13 (iv)",
+        "clauseRank": 1,
+        "paraRank": 1,
+        "top": "Clause 13 (iv)",
+        "topRank": 0.9648769336104983
+      },
+      {
+        "q": "Who must be appointed to handle digital lending complaints?",
+        "expected": "Clause 11 (i)",
+        "clauseRank": 1,
+        "paraRank": 1,
+        "top": "Clause 11 (i)",
+        "topRank": 0.37252675761847204
+      },
+      {
+        "q": "When can an unhappy borrower take a complaint to the RBI Complaint Management System?",
+        "expected": "Clause 11 (iv)",
+        "clauseRank": 1,
+        "paraRank": 1,
+        "top": "Clause 11 (iv)",
+        "topRank": 0.49493238335670586
+      },
+      {
+        "q": "What do regulated entities have to report to RBI about their digital lending apps, and on which portal?",
+        "expected": "Clause 17 (i)",
+        "clauseRank": 4,
+        "paraRank": 0,
+        "top": "Clause 3",
+        "topRank": 0.6785621146533095
+      },
+      {
+        "q": "Into whose bank account must a loan be disbursed?",
+        "expected": "Clause 9 (i)",
+        "clauseRank": 1,
+        "paraRank": 1,
+        "top": "Clause 9 (i)",
+        "topRank": 0.6144922285520649
+      },
+      {
+        "q": "Can a lending service provider charge its fees to the borrower?",
+        "expected": "Clause 9 (iv)",
+        "clauseRank": 1,
+        "paraRank": 1,
+        "top": "Clause 9 (iv)",
+        "topRank": 0.9842048869843169
+      },
+      {
+        "q": "What is the maximum cover allowed under a default loss guarantee arrangement?",
+        "expected": "Clause 23 (i)",
+        "clauseRank": 0,
+        "paraRank": 0,
+        "top": "Clause 4 (ii)",
+        "topRank": 0.7869384742182357
+      },
+      {
+        "q": "In what forms can a default loss guarantee be accepted by the lender?",
+        "expected": "Clause 22 (i)",
+        "clauseRank": 2,
+        "paraRank": 2,
+        "top": "Clause 4 (ii)",
+        "topRank": 0.6314549696419498
+      },
+      {
+        "q": "Within how many days of overdue must a default loss guarantee be invoked?",
+        "expected": "Clause 26 (i)",
+        "clauseRank": 1,
+        "paraRank": 1,
+        "top": "Clause 26 (i)",
+        "topRank": 0.4808110439931136
+      },
+      {
+        "q": "What information must a lender collect about the borrower before assessing creditworthiness?",
+        "expected": "Clause 7 (i)",
+        "clauseRank": 1,
+        "paraRank": 1,
+        "top": "Clause 7 (i)",
+        "topRank": 0.6935414671677118
+      },
+      {
+        "q": "Does lending done through digital lending apps have to be reported to credit information companies?",
+        "expected": "Clause 16 (i)",
+        "clauseRank": 1,
+        "paraRank": 1,
+        "top": "Clause 16 (i)",
+        "topRank": 0.8851620536067782
+      },
+      {
+        "q": "What must be shown to a borrower when a platform displays loan offers from several lenders?",
+        "expected": "Clause 6 (iii)",
+        "clauseRank": 1,
+        "paraRank": 2,
+        "top": "Clause 6 (iv)",
+        "topRank": 0.36125200389534645
+      },
+      {
+        "q": "Must the borrower be told who the recovery agent is before they are contacted for recovery?",
+        "expected": "Clause 8 (v)",
+        "clauseRank": 1,
+        "paraRank": 1,
+        "top": "Clause 8 (v)",
+        "topRank": 0.7562808011525423
+      },
+      {
+        "q": "Is an automatic increase of the credit limit allowed?",
+        "expected": "Clause 7 (ii)",
+        "clauseRank": 1,
+        "paraRank": 1,
+        "top": "Clause 7 (ii)",
+        "topRank": 1.0627233128843785
+      }
+    ],
+    "out_of_scope": [
+      {
+        "q": "What is the current repo rate set by the central bank?",
+        "topRank": 0.34101941078337783,
+        "refused": true
+      },
+      {
+        "q": "How do I bake sourdough bread at home?",
+        "topRank": null,
+        "refused": true
+      },
+      {
+        "q": "Who won the cricket world cup?",
+        "topRank": null,
+        "refused": true
+      },
+      {
+        "q": "What is the penalty for a bounced cheque?",
+        "topRank": 0.26146082577528074,
+        "refused": true
+      },
+      {
+        "q": "What documents are needed to open a demat account?",
+        "topRank": 0.22168586424413592,
+        "refused": true
+      },
+      {
+        "q": "What will the weather be in Mumbai tomorrow?",
+        "topRank": null,
+        "refused": true
+      }
+    ]
+  },
+  "ts_rank_cd_baseline": {
+    "mode": "ts_rank_cd",
+    "questions": 20,
+    "clause_hit_at_1": 0.55,
+    "clause_hit_at_3": 0.85,
+    "para_hit_at_1": 0.5,
+    "para_hit_at_3": 0.8,
+    "in_scope_answered": null,
+    "out_of_scope_refused": null,
+    "out_of_scope_questions": 6,
+    "misses_at_3": [
+      {
+        "q": "Who must be appointed to handle digital lending complaints?",
+        "expected": "Clause 11 (i)",
+        "clauseRank": 4,
+        "paraRank": 0,
+        "top": "Clause 1",
+        "topRank": 0.6666666865348816
+      },
+      {
+        "q": "What do regulated entities have to report to RBI about their digital lending apps, and on which portal?",
+        "expected": "Clause 17 (i)",
+        "clauseRank": 5,
+        "paraRank": 5,
+        "top": "Clause 1",
+        "topRank": 0.782608687877655
+      },
+      {
+        "q": "What is the maximum cover allowed under a default loss guarantee arrangement?",
+        "expected": "Clause 23 (i)",
+        "clauseRank": 0,
+        "paraRank": 0,
+        "top": "Annex II Illustration 2",
+        "topRank": 0.75
+      }
+    ],
+    "misses_at_1": [
+      {
+        "q": "Can a lending app access my contact list, call logs and photos?",
+        "expected": "Clause 12 (i)",
+        "clauseRank": 2,
+        "paraRank": 2,
+        "top": "Clause 1",
+        "topRank": 0.5454545617103577
+      },
+      {
+        "q": "Who must be appointed to handle digital lending complaints?",
+        "expected": "Clause 11 (i)",
+        "clauseRank": 4,
+        "paraRank": 0,
+        "top": "Clause 1",
+        "topRank": 0.6666666865348816
+      },
+      {
+        "q": "What do regulated entities have to report to RBI about their digital lending apps, and on which portal?",
+        "expected": "Clause 17 (i)",
+        "clauseRank": 5,
+        "paraRank": 5,
+        "top": "Clause 1",
+        "topRank": 0.782608687877655
+      },
+      {
+        "q": "Can a lending service provider charge its fees to the borrower?",
+        "expected": "Clause 9 (iv)",
+        "clauseRank": 3,
+        "paraRank": 0,
+        "top": "Clause 1",
+        "topRank": 0.6875
+      },
+      {
+        "q": "What is the maximum cover allowed under a default loss guarantee arrangement?",
+        "expected": "Clause 23 (i)",
+        "clauseRank": 0,
+        "paraRank": 0,
+        "top": "Annex II Illustration 2",
+        "topRank": 0.75
+      },
+      {
+        "q": "In what forms can a default loss guarantee be accepted by the lender?",
+        "expected": "Clause 22 (i)",
+        "clauseRank": 3,
+        "paraRank": 3,
+        "top": "Annex II Illustration 2",
+        "topRank": 0.6153846383094788
+      },
+      {
+        "q": "Within how many days of overdue must a default loss guarantee be invoked?",
+        "expected": "Clause 26 (i)",
+        "clauseRank": 3,
+        "paraRank": 3,
+        "top": "Annex II Illustration 2",
+        "topRank": 0.6666666865348816
+      },
+      {
+        "q": "Does lending done through digital lending apps have to be reported to credit information companies?",
+        "expected": "Clause 16 (i)",
+        "clauseRank": 2,
+        "paraRank": 2,
+        "top": "Clause 1",
+        "topRank": 0.7727272510528564
+      },
+      {
+        "q": "Is an automatic increase of the credit limit allowed?",
+        "expected": "Clause 7 (ii)",
+        "clauseRank": 3,
+        "paraRank": 3,
+        "top": "Clause 1",
+        "topRank": 0.4444444477558136
+      }
+    ],
+    "rows": [
+      {
+        "q": "What must the Key Fact Statement (KFS) given to a borrower contain, and which circular governs it?",
+        "expected": "Clause 8 (i)",
+        "clauseRank": 1,
+        "paraRank": 1,
+        "top": "Clause 8 (i)",
+        "topRank": 0.7058823704719543
+      },
+      {
+        "q": "Can a borrower exit a digital loan during a cooling-off period without a penalty?",
+        "expected": "Clause 10 (i)",
+        "clauseRank": 1,
+        "paraRank": 1,
+        "top": "Clause 10 (i)",
+        "topRank": 0.75
+      },
+      {
+        "q": "Can the lender keep a processing fee if the customer exits the loan in the cooling-off period?",
+        "expected": "Clause 10 (ii)",
+        "clauseRank": 1,
+        "paraRank": 3,
+        "top": "Clause 10 (i)",
+        "topRank": 0.6666666865348816
+      },
+      {
+        "q": "Which documents must automatically reach the borrower by email or SMS after the loan contract is executed?",
+        "expected": "Clause 8 (iii)",
+        "clauseRank": 1,
+        "paraRank": 1,
+        "top": "Clause 8 (iii)",
+        "topRank": 0.6875
+      },
+      {
+        "q": "Can a lending app access my contact list, call logs and photos?",
+        "expected": "Clause 12 (i)",
+        "clauseRank": 2,
+        "paraRank": 2,
+        "top": "Clause 1",
+        "topRank": 0.5454545617103577
+      },
+      {
+        "q": "Does the borrower have the right to withdraw consent and ask for their data to be deleted?",
+        "expected": "Clause 12 (ii)",
+        "clauseRank": 1,
+        "paraRank": 1,
+        "top": "Clause 12 (ii)",
+        "topRank": 0.6666666865348816
+      },
+      {
+        "q": "Where must the borrower's data be stored, and can it be processed outside India?",
+        "expected": "Clause 13 (iv)",
+        "clauseRank": 1,
+        "paraRank": 1,
+        "top": "Clause 13 (iv)",
+        "topRank": 0.7222222089767456
+      },
+      {
+        "q": "Who must be appointed to handle digital lending complaints?",
+        "expected": "Clause 11 (i)",
+        "clauseRank": 4,
+        "paraRank": 0,
+        "top": "Clause 1",
+        "topRank": 0.6666666865348816
+      },
+      {
+        "q": "When can an unhappy borrower take a complaint to the RBI Complaint Management System?",
+        "expected": "Clause 11 (iv)",
+        "clauseRank": 1,
+        "paraRank": 1,
+        "top": "Clause 11 (iv)",
+        "topRank": 0.7058823704719543
+      },
+      {
+        "q": "What do regulated entities have to report to RBI about their digital lending apps, and on which portal?",
+        "expected": "Clause 17 (i)",
+        "clauseRank": 5,
+        "paraRank": 5,
+        "top": "Clause 1",
+        "topRank": 0.782608687877655
+      },
+      {
+        "q": "Into whose bank account must a loan be disbursed?",
+        "expected": "Clause 9 (i)",
+        "clauseRank": 1,
+        "paraRank": 1,
+        "top": "Clause 9 (i)",
+        "topRank": 0.6666666865348816
+      },
+      {
+        "q": "Can a lending service provider charge its fees to the borrower?",
+        "expected": "Clause 9 (iv)",
+        "clauseRank": 3,
+        "paraRank": 0,
+        "top": "Clause 1",
+        "topRank": 0.6875
+      },
+      {
+        "q": "What is the maximum cover allowed under a default loss guarantee arrangement?",
+        "expected": "Clause 23 (i)",
+        "clauseRank": 0,
+        "paraRank": 0,
+        "top": "Annex II Illustration 2",
+        "topRank": 0.75
+      },
+      {
+        "q": "In what forms can a default loss guarantee be accepted by the lender?",
+        "expected": "Clause 22 (i)",
+        "clauseRank": 3,
+        "paraRank": 3,
+        "top": "Annex II Illustration 2",
+        "topRank": 0.6153846383094788
+      },
+      {
+        "q": "Within how many days of overdue must a default loss guarantee be invoked?",
+        "expected": "Clause 26 (i)",
+        "clauseRank": 3,
+        "paraRank": 3,
+        "top": "Annex II Illustration 2",
+        "topRank": 0.6666666865348816
+      },
+      {
+        "q": "What information must a lender collect about the borrower before assessing creditworthiness?",
+        "expected": "Clause 7 (i)",
+        "clauseRank": 1,
+        "paraRank": 1,
+        "top": "Clause 7 (i)",
+        "topRank": 0.6875
+      },
+      {
+        "q": "Does lending done through digital lending apps have to be reported to credit information companies?",
+        "expected": "Clause 16 (i)",
+        "clauseRank": 2,
+        "paraRank": 2,
+        "top": "Clause 1",
+        "topRank": 0.7727272510528564
+      },
+      {
+        "q": "What must be shown to a borrower when a platform displays loan offers from several lenders?",
+        "expected": "Clause 6 (iii)",
+        "clauseRank": 1,
+        "paraRank": 1,
+        "top": "Clause 6 (iii)",
+        "topRank": 0.6666666865348816
+      },
+      {
+        "q": "Must the borrower be told who the recovery agent is before they are contacted for recovery?",
+        "expected": "Clause 8 (v)",
+        "clauseRank": 1,
+        "paraRank": 1,
+        "top": "Clause 8 (v)",
+        "topRank": 0.7727272510528564
+      },
+      {
+        "q": "Is an automatic increase of the credit limit allowed?",
+        "expected": "Clause 7 (ii)",
+        "clauseRank": 3,
+        "paraRank": 3,
+        "top": "Clause 1",
+        "topRank": 0.4444444477558136
+      }
+    ],
+    "out_of_scope": [
+      {
+        "q": "What is the current repo rate set by the central bank?",
+        "topRank": 0.6153846383094788,
+        "refused": false
+      },
+      {
+        "q": "How do I bake sourdough bread at home?",
+        "topRank": null,
+        "refused": true
+      },
+      {
+        "q": "Who won the cricket world cup?",
+        "topRank": null,
+        "refused": true
+      },
+      {
+        "q": "What is the penalty for a bounced cheque?",
+        "topRank": 0.1666666716337204,
+        "refused": true
+      },
+      {
+        "q": "What documents are needed to open a demat account?",
+        "topRank": 0.4444444477558136,
+        "refused": false
+      },
+      {
+        "q": "What will the weather be in Mumbai tomorrow?",
+        "topRank": null,
+        "refused": true
+      }
+    ]
+  },
+  "held_out_bm25": {
+    "mode": "bm25",
+    "questions": 20,
+    "clause_hit_at_1": 0.85,
+    "clause_hit_at_3": 0.9,
+    "para_hit_at_1": 0.7,
+    "para_hit_at_3": 0.8,
+    "in_scope_answered": 0.95,
+    "out_of_scope_refused": 0.6666666666666666,
+    "out_of_scope_questions": 6,
+    "misses_at_3": [
+      {
+        "q": "What checks must a lender make on a lending service provider before signing an agreement with it?",
+        "expected": "Clause 5 (ii)",
+        "clauseRank": 0,
+        "paraRank": 0,
+        "top": "Clause 6",
+        "topRank": 0.296008091610702
+      },
+      {
+        "q": "Which entities may provide a default loss guarantee to a regulated lender?",
+        "expected": "Clause 18 (i)",
+        "clauseRank": 0,
+        "paraRank": 0,
+        "top": "Clause 4 (ii)",
+        "topRank": 0.7085606590169868
+      }
+    ],
+    "misses_at_1": [
+      {
+        "q": "What checks must a lender make on a lending service provider before signing an agreement with it?",
+        "expected": "Clause 5 (ii)",
+        "clauseRank": 0,
+        "paraRank": 0,
+        "top": "Clause 6",
+        "topRank": 0.296008091610702
+      },
+      {
+        "q": "Which entities may provide a default loss guarantee to a regulated lender?",
+        "expected": "Clause 18 (i)",
+        "clauseRank": 0,
+        "paraRank": 0,
+        "top": "Clause 4 (ii)",
+        "topRank": 0.7085606590169868
+      },
+      {
+        "q": "Which credit guarantee schemes are excluded from the definition of a guarantee arrangement?",
+        "expected": "Clause 28",
+        "clauseRank": 2,
+        "paraRank": 3,
+        "top": "Clause 20 (ii)",
+        "topRank": 0.748834567854749
+      }
+    ],
+    "rows": [
+      {
+        "q": "Which kinds of institutions do these Directions apply to?",
+        "expected": "Clause 3",
+        "clauseRank": 1,
+        "paraRank": 0,
+        "top": "Clause 3 (iv)",
+        "topRank": 0.40209000368861375
+      },
+      {
+        "q": "What does the term Lending Service Provider mean?",
+        "expected": "Clause 4 (v)",
+        "clauseRank": 1,
+        "paraRank": 2,
+        "top": "Clause 4",
+        "topRank": 0.7444400808903986
+      },
+      {
+        "q": "What checks must a lender make on a lending service provider before signing an agreement with it?",
+        "expected": "Clause 5 (ii)",
+        "clauseRank": 0,
+        "paraRank": 0,
+        "top": "Clause 6",
+        "topRank": 0.296008091610702
+      },
+      {
+        "q": "If a lender outsources to an LSP, is the lender still responsible for compliance?",
+        "expected": "Clause 5 (vii)",
+        "clauseRank": 1,
+        "paraRank": 1,
+        "top": "Clause 5 (vii)",
+        "topRank": 0.4264121825579145
+      },
+      {
+        "q": "Are lending apps allowed to use dark patterns to push one lender's product?",
+        "expected": "Clause 6 (iv)",
+        "clauseRank": 1,
+        "paraRank": 1,
+        "top": "Clause 6 (iv)",
+        "topRank": 0.46066060950313464
+      },
+      {
+        "q": "What details about its digital lending apps must a lender keep on its own website?",
+        "expected": "Clause 8 (iv)",
+        "clauseRank": 1,
+        "paraRank": 1,
+        "top": "Clause 8 (iv)",
+        "topRank": 0.36775847804775813
+      },
+      {
+        "q": "Can repayments be routed through a third party's pool account?",
+        "expected": "Clause 9 (ii)",
+        "clauseRank": 1,
+        "paraRank": 1,
+        "top": "Clause 9 (ii)",
+        "topRank": 0.9273121865075892
+      },
+      {
+        "q": "Where must the contact details of the grievance officer be displayed?",
+        "expected": "Clause 11 (ii)",
+        "clauseRank": 1,
+        "paraRank": 1,
+        "top": "Clause 11 (ii)",
+        "topRank": 0.9463115560011511
+      },
+      {
+        "q": "Does the app have to explain why it is asking for my data at each stage?",
+        "expected": "Clause 12 (iii)",
+        "clauseRank": 1,
+        "paraRank": 1,
+        "top": "Clause 12 (iii)",
+        "topRank": 0.39275017695145004
+      },
+      {
+        "q": "Is storing biometric data allowed for lenders and their service providers?",
+        "expected": "Clause 13 (iii)",
+        "clauseRank": 1,
+        "paraRank": 1,
+        "top": "Clause 13 (iii)",
+        "topRank": 0.8736773506756237
+      },
+      {
+        "q": "Does a lender need to publish a privacy policy on its website?",
+        "expected": "Clause 14 (i)",
+        "clauseRank": 1,
+        "paraRank": 1,
+        "top": "Clause 14 (i)",
+        "topRank": 0.5745493937512823
+      },
+      {
+        "q": "Which cybersecurity standards must lenders and their partners follow?",
+        "expected": "Clause 15 (i)",
+        "clauseRank": 1,
+        "paraRank": 1,
+        "top": "Clause 15 (i)",
+        "topRank": 0.4341202340177854
+      },
+      {
+        "q": "Who has to certify the data submitted on the CIMS portal?",
+        "expected": "Clause 17 (iii)",
+        "clauseRank": 1,
+        "paraRank": 1,
+        "top": "Clause 17 (iii)",
+        "topRank": 1.0497360607060375
+      },
+      {
+        "q": "Which entities may provide a default loss guarantee to a regulated lender?",
+        "expected": "Clause 18 (i)",
+        "clauseRank": 0,
+        "paraRank": 0,
+        "top": "Clause 4 (ii)",
+        "topRank": 0.7085606590169868
+      },
+      {
+        "q": "Can a guarantee arrangement replace proper credit appraisal?",
+        "expected": "Clause 19 (ii)",
+        "clauseRank": 1,
+        "paraRank": 1,
+        "top": "Clause 19 (ii)",
+        "topRank": 0.4762986403542368
+      },
+      {
+        "q": "Are guarantee arrangements allowed for credit cards or revolving credit?",
+        "expected": "Clause 20 (i)",
+        "clauseRank": 1,
+        "paraRank": 1,
+        "top": "Clause 20 (i)",
+        "topRank": 0.8993472133671404
+      },
+      {
+        "q": "Can the amount of a guarantee that was invoked be set off against the borrower's loan?",
+        "expected": "Clause 24 (ii)",
+        "clauseRank": 1,
+        "paraRank": 1,
+        "top": "Clause 24 (ii)",
+        "topRank": 1.0207418753971136
+      },
+      {
+        "q": "For how long must a guarantee agreement remain in force?",
+        "expected": "Clause 26 (ii)",
+        "clauseRank": 1,
+        "paraRank": 1,
+        "top": "Clause 26 (ii)",
+        "topRank": 0.5200892485857668
+      },
+      {
+        "q": "How often must service providers publish their guarantee portfolio disclosures?",
+        "expected": "Clause 27 (ii)",
+        "clauseRank": 1,
+        "paraRank": 5,
+        "top": "Clause 27 (i)",
+        "topRank": 0.4121286604194028
+      },
+      {
+        "q": "Which credit guarantee schemes are excluded from the definition of a guarantee arrangement?",
+        "expected": "Clause 28",
+        "clauseRank": 2,
+        "paraRank": 3,
+        "top": "Clause 20 (ii)",
+        "topRank": 0.748834567854749
+      }
+    ],
+    "out_of_scope": [
+      {
+        "q": "What is the maximum tenure of a home loan?",
+        "topRank": 0.36964040456436353,
+        "refused": false
+      },
+      {
+        "q": "Which mutual fund should I invest in?",
+        "topRank": 0.3272002307286487,
+        "refused": true
+      },
+      {
+        "q": "How do I reset my online banking password?",
+        "topRank": 0.16472907025433992,
+        "refused": true
+      },
+      {
+        "q": "What is the capital of France?",
+        "topRank": 0.6350456990702149,
+        "refused": false
+      },
+      {
+        "q": "What is the minimum balance for a savings account?",
+        "topRank": 0.27460841302709754,
+        "refused": true
+      },
+      {
+        "q": "How is income tax calculated on salary?",
+        "topRank": 0.20269743163555337,
+        "refused": true
+      }
+    ]
+  },
+  "held_out_ts_rank_cd_baseline": {
+    "mode": "ts_rank_cd",
+    "questions": 20,
+    "clause_hit_at_1": 0.25,
+    "clause_hit_at_3": 0.6,
+    "para_hit_at_1": 0.2,
+    "para_hit_at_3": 0.45,
+    "in_scope_answered": null,
+    "out_of_scope_refused": null,
+    "out_of_scope_questions": 6,
+    "misses_at_3": [
+      {
+        "q": "Which kinds of institutions do these Directions apply to?",
+        "expected": "Clause 3",
+        "clauseRank": 0,
+        "paraRank": 0,
+        "top": "Clause 29 (i)",
+        "topRank": 0.5
+      },
+      {
+        "q": "What checks must a lender make on a lending service provider before signing an agreement with it?",
+        "expected": "Clause 5 (ii)",
+        "clauseRank": 0,
+        "paraRank": 0,
+        "top": "Clause 1",
+        "topRank": 0.6153846383094788
+      },
+      {
+        "q": "If a lender outsources to an LSP, is the lender still responsible for compliance?",
+        "expected": "Clause 5 (vii)",
+        "clauseRank": 0,
+        "paraRank": 0,
+        "top": "Clause 6 (ii)",
+        "topRank": 0.5833333134651184
+      },
+      {
+        "q": "Who has to certify the data submitted on the CIMS portal?",
+        "expected": "Clause 17 (iii)",
+        "clauseRank": 4,
+        "paraRank": 5,
+        "top": "Annex I",
+        "topRank": 0.6153846383094788
+      },
+      {
+        "q": "Which entities may provide a default loss guarantee to a regulated lender?",
+        "expected": "Clause 18 (i)",
+        "clauseRank": 0,
+        "paraRank": 0,
+        "top": "Clause 1",
+        "topRank": 0.6428571343421936
+      },
+      {
+        "q": "Can a guarantee arrangement replace proper credit appraisal?",
+        "expected": "Clause 19 (ii)",
+        "clauseRank": 0,
+        "paraRank": 0,
+        "top": "Clause 20 (i)",
+        "topRank": 0.5454545617103577
+      },
+      {
+        "q": "Can the amount of a guarantee that was invoked be set off against the borrower's loan?",
+        "expected": "Clause 24 (ii)",
+        "clauseRank": 5,
+        "paraRank": 5,
+        "top": "Annex II Illustration 2",
+        "topRank": 0.761904776096344
+      },
+      {
+        "q": "Which credit guarantee schemes are excluded from the definition of a guarantee arrangement?",
+        "expected": "Clause 28",
+        "clauseRank": 4,
+        "paraRank": 0,
+        "top": "Clause 20 (ii)",
+        "topRank": 0.5833333134651184
+      }
+    ],
+    "misses_at_1": [
+      {
+        "q": "Which kinds of institutions do these Directions apply to?",
+        "expected": "Clause 3",
+        "clauseRank": 0,
+        "paraRank": 0,
+        "top": "Clause 29 (i)",
+        "topRank": 0.5
+      },
+      {
+        "q": "What does the term Lending Service Provider mean?",
+        "expected": "Clause 4 (v)",
+        "clauseRank": 2,
+        "paraRank": 3,
+        "top": "Clause 1",
+        "topRank": 0.6153846383094788
+      },
+      {
+        "q": "What checks must a lender make on a lending service provider before signing an agreement with it?",
+        "expected": "Clause 5 (ii)",
+        "clauseRank": 0,
+        "paraRank": 0,
+        "top": "Clause 1",
+        "topRank": 0.6153846383094788
+      },
+      {
+        "q": "If a lender outsources to an LSP, is the lender still responsible for compliance?",
+        "expected": "Clause 5 (vii)",
+        "clauseRank": 0,
+        "paraRank": 0,
+        "top": "Clause 6 (ii)",
+        "topRank": 0.5833333134651184
+      },
+      {
+        "q": "Are lending apps allowed to use dark patterns to push one lender's product?",
+        "expected": "Clause 6 (iv)",
+        "clauseRank": 2,
+        "paraRank": 2,
+        "top": "Clause 1",
+        "topRank": 0.6153846383094788
+      },
+      {
+        "q": "What details about its digital lending apps must a lender keep on its own website?",
+        "expected": "Clause 8 (iv)",
+        "clauseRank": 2,
+        "paraRank": 2,
+        "top": "Clause 1",
+        "topRank": 0.6875
+      },
+      {
+        "q": "Where must the contact details of the grievance officer be displayed?",
+        "expected": "Clause 11 (ii)",
+        "clauseRank": 2,
+        "paraRank": 2,
+        "top": "Annex I",
+        "topRank": 0.6153846383094788
+      },
+      {
+        "q": "Does the app have to explain why it is asking for my data at each stage?",
+        "expected": "Clause 12 (iii)",
+        "clauseRank": 3,
+        "paraRank": 0,
+        "top": "Annex I",
+        "topRank": 0.6153846383094788
+      },
+      {
+        "q": "Which cybersecurity standards must lenders and their partners follow?",
+        "expected": "Clause 15 (i)",
+        "clauseRank": 2,
+        "paraRank": 2,
+        "top": "Clause 6 (ii)",
+        "topRank": 0.4444444477558136
+      },
+      {
+        "q": "Who has to certify the data submitted on the CIMS portal?",
+        "expected": "Clause 17 (iii)",
+        "clauseRank": 4,
+        "paraRank": 5,
+        "top": "Annex I",
+        "topRank": 0.6153846383094788
+      },
+      {
+        "q": "Which entities may provide a default loss guarantee to a regulated lender?",
+        "expected": "Clause 18 (i)",
+        "clauseRank": 0,
+        "paraRank": 0,
+        "top": "Clause 1",
+        "topRank": 0.6428571343421936
+      },
+      {
+        "q": "Can a guarantee arrangement replace proper credit appraisal?",
+        "expected": "Clause 19 (ii)",
+        "clauseRank": 0,
+        "paraRank": 0,
+        "top": "Clause 20 (i)",
+        "topRank": 0.5454545617103577
+      },
+      {
+        "q": "Can the amount of a guarantee that was invoked be set off against the borrower's loan?",
+        "expected": "Clause 24 (ii)",
+        "clauseRank": 5,
+        "paraRank": 5,
+        "top": "Annex II Illustration 2",
+        "topRank": 0.761904776096344
+      },
+      {
+        "q": "How often must service providers publish their guarantee portfolio disclosures?",
+        "expected": "Clause 27 (ii)",
+        "clauseRank": 3,
+        "paraRank": 0,
+        "top": "Clause 19 (iii)",
+        "topRank": 0.5833333134651184
+      },
+      {
+        "q": "Which credit guarantee schemes are excluded from the definition of a guarantee arrangement?",
+        "expected": "Clause 28",
+        "clauseRank": 4,
+        "paraRank": 0,
+        "top": "Clause 20 (ii)",
+        "topRank": 0.5833333134651184
+      }
+    ],
+    "rows": [
+      {
+        "q": "Which kinds of institutions do these Directions apply to?",
+        "expected": "Clause 3",
+        "clauseRank": 0,
+        "paraRank": 0,
+        "top": "Clause 29 (i)",
+        "topRank": 0.5
+      },
+      {
+        "q": "What does the term Lending Service Provider mean?",
+        "expected": "Clause 4 (v)",
+        "clauseRank": 2,
+        "paraRank": 3,
+        "top": "Clause 1",
+        "topRank": 0.6153846383094788
+      },
+      {
+        "q": "What checks must a lender make on a lending service provider before signing an agreement with it?",
+        "expected": "Clause 5 (ii)",
+        "clauseRank": 0,
+        "paraRank": 0,
+        "top": "Clause 1",
+        "topRank": 0.6153846383094788
+      },
+      {
+        "q": "If a lender outsources to an LSP, is the lender still responsible for compliance?",
+        "expected": "Clause 5 (vii)",
+        "clauseRank": 0,
+        "paraRank": 0,
+        "top": "Clause 6 (ii)",
+        "topRank": 0.5833333134651184
+      },
+      {
+        "q": "Are lending apps allowed to use dark patterns to push one lender's product?",
+        "expected": "Clause 6 (iv)",
+        "clauseRank": 2,
+        "paraRank": 2,
+        "top": "Clause 1",
+        "topRank": 0.6153846383094788
+      },
+      {
+        "q": "What details about its digital lending apps must a lender keep on its own website?",
+        "expected": "Clause 8 (iv)",
+        "clauseRank": 2,
+        "paraRank": 2,
+        "top": "Clause 1",
+        "topRank": 0.6875
+      },
+      {
+        "q": "Can repayments be routed through a third party's pool account?",
+        "expected": "Clause 9 (ii)",
+        "clauseRank": 1,
+        "paraRank": 1,
+        "top": "Clause 9 (ii)",
+        "topRank": 0.6666666865348816
+      },
+      {
+        "q": "Where must the contact details of the grievance officer be displayed?",
+        "expected": "Clause 11 (ii)",
+        "clauseRank": 2,
+        "paraRank": 2,
+        "top": "Annex I",
+        "topRank": 0.6153846383094788
+      },
+      {
+        "q": "Does the app have to explain why it is asking for my data at each stage?",
+        "expected": "Clause 12 (iii)",
+        "clauseRank": 3,
+        "paraRank": 0,
+        "top": "Annex I",
+        "topRank": 0.6153846383094788
+      },
+      {
+        "q": "Is storing biometric data allowed for lenders and their service providers?",
+        "expected": "Clause 13 (iii)",
+        "clauseRank": 1,
+        "paraRank": 5,
+        "top": "Clause 13 (ii)",
+        "topRank": 0.6428571343421936
+      },
+      {
+        "q": "Does a lender need to publish a privacy policy on its website?",
+        "expected": "Clause 14 (i)",
+        "clauseRank": 1,
+        "paraRank": 1,
+        "top": "Clause 14 (i)",
+        "topRank": 0.5833333134651184
+      },
+      {
+        "q": "Which cybersecurity standards must lenders and their partners follow?",
+        "expected": "Clause 15 (i)",
+        "clauseRank": 2,
+        "paraRank": 2,
+        "top": "Clause 6 (ii)",
+        "topRank": 0.4444444477558136
+      },
+      {
+        "q": "Who has to certify the data submitted on the CIMS portal?",
+        "expected": "Clause 17 (iii)",
+        "clauseRank": 4,
+        "paraRank": 5,
+        "top": "Annex I",
+        "topRank": 0.6153846383094788
+      },
+      {
+        "q": "Which entities may provide a default loss guarantee to a regulated lender?",
+        "expected": "Clause 18 (i)",
+        "clauseRank": 0,
+        "paraRank": 0,
+        "top": "Clause 1",
+        "topRank": 0.6428571343421936
+      },
+      {
+        "q": "Can a guarantee arrangement replace proper credit appraisal?",
+        "expected": "Clause 19 (ii)",
+        "clauseRank": 0,
+        "paraRank": 0,
+        "top": "Clause 20 (i)",
+        "topRank": 0.5454545617103577
+      },
+      {
+        "q": "Are guarantee arrangements allowed for credit cards or revolving credit?",
+        "expected": "Clause 20 (i)",
+        "clauseRank": 1,
+        "paraRank": 1,
+        "top": "Clause 20 (i)",
+        "topRank": 0.6666666865348816
+      },
+      {
+        "q": "Can the amount of a guarantee that was invoked be set off against the borrower's loan?",
+        "expected": "Clause 24 (ii)",
+        "clauseRank": 5,
+        "paraRank": 5,
+        "top": "Annex II Illustration 2",
+        "topRank": 0.761904776096344
+      },
+      {
+        "q": "For how long must a guarantee agreement remain in force?",
+        "expected": "Clause 26 (ii)",
+        "clauseRank": 1,
+        "paraRank": 1,
+        "top": "Clause 26 (ii)",
+        "topRank": 0.375
+      },
+      {
+        "q": "How often must service providers publish their guarantee portfolio disclosures?",
+        "expected": "Clause 27 (ii)",
+        "clauseRank": 3,
+        "paraRank": 0,
+        "top": "Clause 19 (iii)",
+        "topRank": 0.5833333134651184
+      },
+      {
+        "q": "Which credit guarantee schemes are excluded from the definition of a guarantee arrangement?",
+        "expected": "Clause 28",
+        "clauseRank": 4,
+        "paraRank": 0,
+        "top": "Clause 20 (ii)",
+        "topRank": 0.5833333134651184
+      }
+    ],
+    "out_of_scope": [
+      {
+        "q": "What is the maximum tenure of a home loan?",
+        "topRank": 0.6666666865348816,
+        "refused": false
+      },
+      {
+        "q": "Which mutual fund should I invest in?",
+        "topRank": 0.2857142984867096,
+        "refused": true
+      },
+      {
+        "q": "How do I reset my online banking password?",
+        "topRank": 0.5833333134651184,
+        "refused": false
+      },
+      {
+        "q": "What is the capital of France?",
+        "topRank": 0.375,
+        "refused": false
+      },
+      {
+        "q": "What is the minimum balance for a savings account?",
+        "topRank": 0.4444444477558136,
+        "refused": false
+      },
+      {
+        "q": "How is income tax calculated on salary?",
+        "topRank": 0.1666666716337204,
+        "refused": true
+      }
+    ]
+  }
+}

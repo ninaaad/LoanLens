@@ -1,0 +1,33 @@
+{
+  "_note": "A second labelled set, written on 4 Nov 2026 from a read of the Directions AFTER the ranker and the 0.35 refusal threshold were fixed, and not run before this file was saved. It is NOT used for tuning: its job is to say how the system does on questions it was not shaped around. Misses are reported, not fixed by editing the questions.",
+  "in_scope": [
+    { "q": "Which kinds of institutions do these Directions apply to?", "clause": "Clause 3", "para": null },
+    { "q": "What does the term Lending Service Provider mean?", "clause": "Clause 4", "para": "(v)" },
+    { "q": "What checks must a lender make on a lending service provider before signing an agreement with it?", "clause": "Clause 5", "para": "(ii)" },
+    { "q": "If a lender outsources to an LSP, is the lender still responsible for compliance?", "clause": "Clause 5", "para": "(vii)" },
+    { "q": "Are lending apps allowed to use dark patterns to push one lender's product?", "clause": "Clause 6", "para": "(iv)" },
+    { "q": "What details about its digital lending apps must a lender keep on its own website?", "clause": "Clause 8", "para": "(iv)" },
+    { "q": "Can repayments be routed through a third party's pool account?", "clause": "Clause 9", "para": "(ii)" },
+    { "q": "Where must the contact details of the grievance officer be displayed?", "clause": "Clause 11", "para": "(ii)" },
+    { "q": "Does the app have to explain why it is asking for my data at each stage?", "clause": "Clause 12", "para": "(iii)" },
+    { "q": "Is storing biometric data allowed for lenders and their service providers?", "clause": "Clause 13", "para": "(iii)" },
+    { "q": "Does a lender need to publish a privacy policy on its website?", "clause": "Clause 14", "para": "(i)" },
+    { "q": "Which cybersecurity standards must lenders and their partners follow?", "clause": "Clause 15", "para": "(i)" },
+    { "q": "Who has to certify the data submitted on the CIMS portal?", "clause": "Clause 17", "para": "(iii)" },
+    { "q": "Which entities may provide a default loss guarantee to a regulated lender?", "clause": "Clause 18", "para": "(i)" },
+    { "q": "Can a guarantee arrangement replace proper credit appraisal?", "clause": "Clause 19", "para": "(ii)" },
+    { "q": "Are guarantee arrangements allowed for credit cards or revolving credit?", "clause": "Clause 20", "para": "(i)" },
+    { "q": "Can the amount of a guarantee that was invoked be set off against the borrower's loan?", "clause": "Clause 24", "para": "(ii)" },
+    { "q": "For how long must a guarantee agreement remain in force?", "clause": "Clause 26", "para": "(ii)" },
+    { "q": "How often must service providers publish their guarantee portfolio disclosures?", "clause": "Clause 27", "para": "(ii)" },
+    { "q": "Which credit guarantee schemes are excluded from the definition of a guarantee arrangement?", "clause": "Clause 28", "para": null }
+  ],
+  "out_of_scope": [
+    "What is the maximum tenure of a home loan?",
+    "Which mutual fund should I invest in?",
+    "How do I reset my online banking password?",
+    "What is the capital of France?",
+    "What is the minimum balance for a savings account?",
+    "How is income tax calculated on salary?"
+  ]
+}
